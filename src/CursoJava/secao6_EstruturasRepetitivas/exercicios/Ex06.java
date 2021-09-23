@@ -9,7 +9,7 @@ package CursoJava.secao6_EstruturasRepetitivas.exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex6 {
+public class Ex06 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
