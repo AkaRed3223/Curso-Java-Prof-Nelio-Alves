@@ -1,6 +1,6 @@
-package CursoJava.secao8_IntroducaoaPOO.Ex02_TrianguloComPOO;
+package CursoJava.secao8_IntroducaoaPOO.ex03_TrianguloComMetodos;
 
-//Agora faça o mesmo programa que o Ex01, mas dessa vez utilizando Objetos
+//Agora faça o mesmo programa do Ex01, mas dessa vez implementando um método para calcular a área
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -24,24 +24,19 @@ public class Main {
         y.ladoB = input.nextDouble();
         y.ladoC = input.nextDouble();
 
-        double px = (x.ladoA + x.ladoB + x.ladoC) / 2;
-        double py = (y.ladoA + y.ladoB + y.ladoC) / 2;
-        double areax = Math.sqrt(px * (px - x.ladoA) * (px - x.ladoB) * (px - x.ladoC));
-        double areay = Math.sqrt(py * (py - y.ladoA) * (py - y.ladoB) * (py - y.ladoC));
+        double areaX = x.area(); //criar uma variável para receber o resultado do método
+        double areaY = y.area(); //de forma a se evitar ficar chamando o método
 
-        System.out.printf("Triangle X area: %.4f%n",areax);
-        System.out.printf("Triangle Y area: %.4f%n",areay);
+        System.out.printf("Triangle X area: %.4f%n",areaX);
+        System.out.printf("Triangle Y area: %.4f%n",areaY);
 
-        if (areax > areay) {
+        if (areaX > areaY) {
             System.out.println("Larger area: X");
         } else {
             System.out.println("Larger area: Y");
         }
 
         input.close();
-
-
-
     }
 
 }

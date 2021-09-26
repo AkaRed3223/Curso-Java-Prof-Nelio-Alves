@@ -1,4 +1,4 @@
-package CursoJava.secao8_IntroducaoaPOO.Ex03_TrianguloComMetodos;
+package CursoJava.secao8_IntroducaoaPOO.ex03_TrianguloComMetodos;
 
 public class Triangle {
 

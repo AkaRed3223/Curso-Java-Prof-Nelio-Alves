@@ -1,8 +1,8 @@
-package CursoJava.secao8_IntroducaoaPOO.Ex04_ProgramaEstoque.program;
+package CursoJava.secao8_IntroducaoaPOO.ex04_ProgramaEstoque.program;
 
 //Fazer um programa utilizando POO e método ToString
 
-import CursoJava.secao8_IntroducaoaPOO.Ex04_ProgramaEstoque.entities.Product;
+import CursoJava.secao8_IntroducaoaPOO.ex04_ProgramaEstoque.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

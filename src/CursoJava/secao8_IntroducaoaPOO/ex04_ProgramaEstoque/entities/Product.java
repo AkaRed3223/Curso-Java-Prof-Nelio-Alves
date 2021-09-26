@@ -1,4 +1,4 @@
-package CursoJava.secao8_IntroducaoaPOO.Ex04_ProgramaEstoque.entities;
+package CursoJava.secao8_IntroducaoaPOO.ex04_ProgramaEstoque.entities;
 
 public class Product {
 

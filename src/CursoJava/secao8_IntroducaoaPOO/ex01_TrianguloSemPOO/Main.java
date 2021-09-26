@@ -1,4 +1,4 @@
-package CursoJava.secao8_IntroducaoaPOO.Ex01_TrianguloSemPOO;
+package CursoJava.secao8_IntroducaoaPOO.ex01_TrianguloSemPOO;
 
 //A ideia deste exercício é fazer um programa que receba os 3 lados de dois triângulos diferentes,
 //calcula suas respectivas áreas e mostre qual tem a maior área.
