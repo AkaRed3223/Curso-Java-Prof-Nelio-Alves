@@ -24,6 +24,7 @@ public class Account {
     public String getHolder() {
         return holder;
     }
+
     public void setHolder(String holder) {
         this.holder = holder;
     }
