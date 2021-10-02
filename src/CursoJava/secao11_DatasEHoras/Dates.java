@@ -1,4 +1,4 @@
-package CursoJava.secao10_ArraysEListas.a05_DatasEHoras;
+package CursoJava.secao11_DatasEHoras;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
