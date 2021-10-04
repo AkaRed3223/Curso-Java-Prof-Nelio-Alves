@@ -1,8 +1,8 @@
-package CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super.application;
+package CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super_Polimorfismo.application;
 
-import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super.entities.Account;
-import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super.entities.BusinessAccount;
-import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super.entities.SavingsAccount;
+import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super_Polimorfismo.entities.Account;
+import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super_Polimorfismo.entities.BusinessAccount;
+import CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super_Polimorfismo.entities.SavingsAccount;
 
 public class Main3 {
     public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class Main3 {
         System.out.println("Saldo da conta3: " + acc3.getBalance());
         //aqui o desconto é maior pois foi implementado o withdraw usando o Super com adicional de 2.0
 
+        //Percebe como que temos 3 variáveis do mesmo tipo mas sendo instanciadas com diferentes formatos???
+        //A essa flexibilidade de formatos dá-se o nome de Polimorfismo
+        //Polimorfismo é simples em seu conceito mas que abre a possibilidade
+        //de infinita complexidade em suas implementações.
 
     }
 }

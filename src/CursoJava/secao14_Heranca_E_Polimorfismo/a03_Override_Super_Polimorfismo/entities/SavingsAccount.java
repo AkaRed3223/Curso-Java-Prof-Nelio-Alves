@@ -1,4 +1,4 @@
-package CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super.entities;
+package CursoJava.secao14_Heranca_E_Polimorfismo.a03_Override_Super_Polimorfismo.entities;
 
 public final class SavingsAccount extends Account{
 
